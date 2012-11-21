@@ -10,6 +10,7 @@
     "type": "git",
     "url": "https://github.com/Logdunum/ldm.git"
   },
+  "preferGlobal": true,
   "keywords": [
     "log",
     "cli",
