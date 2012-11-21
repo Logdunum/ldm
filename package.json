@@ -1,0 +1,22 @@
+{
+  "name": "ldm",
+  "version": "0.9.0",
+  "description": "Logdunum CLI log vizualiser",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Logdunum/ldm.git"
+  },
+  "keywords": [
+    "log",
+    "cli",
+    "logdunum",
+    "filter",
+    "view"
+  ],
+  "author": "Florian Traverse <florian.traverse@gmail.com>",
+  "license": "BSD"
+}
