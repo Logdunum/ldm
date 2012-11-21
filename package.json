@@ -2,7 +2,7 @@
   "name": "ldm",
   "version": "0.9.0",
   "description": "Logdunum CLI log vizualiser",
-  "main": "lib/index.js",
+  "main": "bin/ldm.js",
   "scripts": {
     "test": "mocha -R spec"
   },
@@ -18,5 +18,18 @@
     "view"
   ],
   "author": "Florian Traverse <florian.traverse@gmail.com>",
-  "license": "BSD"
+  "license": "BSD",
+  "dependencies": {
+    "logdunum": "~0.9.0",
+    "commander": "~1.0.5",
+    "moment": "~1.7.2",
+    "colors": "~0.6.0-1",
+    "lodash": "~0.10.0",
+    "cfg": "0.0.2"
+  },
+  "devDependencies": {
+    "mocha": "~1.7.0",
+    "should": "~1.2.1",
+    "sandboxed-module": "~0.1.3"
+  }
 }
